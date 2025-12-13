@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+
+.main-images {
+  position: relative;
+  width: 85vw;
+  height: 80vh;
+  min-width: 500px;
+  background-color: #2f2f2fed;
+  border-radius: 50px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  padding: 23px;
+  overflow: hidden;
+}
+
+
+/* .images {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  width: 200px;
+  height: auto;
+  background-color: black;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+} */
+.images {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  display: flex;
+  height: auto;
+}
+
+
+/* .pic {
+  position: relative;
+} */
+
+.pic {
+  min-width: 100%;
+  height: auto;
+}
+
+.buttons {
+  height: 9vh;
+  width: 33vw;
+  border-radius: 55px;
+  background-color: #7a7a7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  position: absolute;
+
+}
+.button{
+  width: 100%;  
+  aspect-ratio: 1/1;
+  max-width:48px;
+  min-width: 48px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 50px;
+  /* background-color: #a1a1a1; */
+  background-color: transparent;
+}
+.content{
+  height:9rem;
+  width:34rem;
+  background-color: #6c6c6c;
+  position: relative;
+  top: 109px;
+  right: 67px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+/* Changes will come in anime rating box */
+.anime-rating-box{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px; */
+  align-items: center;
+}
+/* To center rating no */
+.rating{
+  background-color: black;
+}
+/* To center episode no */
+.episodes{
+  background-color: blue;
+}
+.anime-rating{
+  color:red;
+
+}
+.noofEpisodes{
+  color:red;
+}
+.content-box{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+h1{
+  color:white;
+}
