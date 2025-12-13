@@ -29,7 +29,7 @@ body {
 }
 
 
-/* .images {
+.images {
   position: absolute;
   top: 30px;
   left: 50px;
@@ -39,23 +39,12 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
   display: flex;
-} */
-.images {
-  position: absolute;
-  top: 30px;
-  left: 50px;
-  display: flex;
-  height: auto;
 }
 
 
-/* .pic {
-  position: relative;
-} */
 
 .pic {
-  min-width: 100%;
-  height: auto;
+  position: relative;
 }
 
 .buttons {
