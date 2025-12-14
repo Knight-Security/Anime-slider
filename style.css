@@ -33,7 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     position:relative;
-    left:23px;
+    right: 89px;
 
 }
 .images {
@@ -54,8 +54,8 @@ body {
 }
 
 .buttons {
-  height: 9vh;
-  width: 33vw;
+  height: 7vh;
+  width: 31vw;
   border-radius: 55px;
   background-color: #7a7a7a;
   display: flex;
