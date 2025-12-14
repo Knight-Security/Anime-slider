@@ -1,8 +1,9 @@
 const pictures = Array.from(document.getElementsByClassName("pic"));
 const backwardButton = document.getElementById("backward");
 const forwardButton = document.getElementById("forward");
+const animeName=document.getElementById("text");
 // all anime names
-const animeName=[];
+const Name=["The Misfit of Demon King Academy","Demon Slayer","Jujutsu Kaisen","Lord of Mysteries","One Punch Man","Mashle: Magic and Muscles","Fullmetal Alchemist","How a Realist Hero Rebuilt the Kingdom"];
 // all anime summary
 const animeSummary=[];
 // all anime rating 
@@ -23,16 +24,20 @@ const slideImage = () => {
 
 forwardButton.addEventListener("click", () => {
   counter++;
+  animeName.innerText=Name[counter];
   if (counter >= pictures.length) {
     counter = 0;
+    animeName.innerText=Name[counter];
   }
+  
   slideImage();
 });
 backwardButton.addEventListener("click", () => {
   counter--;
+  animeName.innerText=Name[counter];
   if (counter < 0) {
-    
     counter = pictures.length - 1;
+    animeName.innerText=Name[counter];
   }
   slideImage();
 });
